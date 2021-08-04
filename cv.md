@@ -1,16 +1,22 @@
-Ramil Mustafin
-Telephone number: +7(927)0241628
+#Ramil Mustafin
 
-E-mail: mustafin.rf@yandex.ru
+##Telephone number: +7(927)0241628
 
-github - https://github.com/Ramil163/
+##E-mail: mustafin.rf@yandex.ru
 
-Technical Skills Programming languages and technologies: JavaScript, HTML, CSS/SCSS Frameworks and Libraries: React Tools: GIT, Webpack, VS Code, Visual Studio Code Other skills: video & audio editing, video encoding, youtube streaming
+[link to github](github - https://github.com/Ramil163/)
 
-Education
+##Technical Skills Programming languages and technologies:
+**JavaScript**, **HTML,** **CSS/SCSS**
+
+##Frameworks and Libraries: React
+
+##Tools: GIT, Webpack, VS Code, Visual Studio Code Other skills: video & audio editing, video encoding, youtube streaming
+
+##Education
 The Rolling Scopes School
 
 09.2005-06.2009, Togliatti State University
-Specialist (Bachelor Degree) – Automobile industry
+**Specialist (Bachelor Degree) – Automobile industry**
 
-English level B1
+##English level B1
