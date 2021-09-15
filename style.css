@@ -47,13 +47,15 @@ table {
  
  .container-cen {
    max-width: 1070px;
-   margin: 20px auto;
+   margin: 150px auto;
+   margin-bottom: 30px;
    
    font-family: "Cabin", sans-serif;
    font-size: 18px;
    line-height: 1.5;
    background-color: #ffffff;
    box-shadow: 20px 10px 40px -1px rgba(0, 0, 0, 0.23);
+   
  }
  .two-columns {
   display: flex;
@@ -231,7 +233,7 @@ table {
  
  
  pre {
-   margin-left: -320px;
+   /* margin-left: -320px; */
    margin-top: 20px;
    padding-left: 30px;
    font-family: monospace;
@@ -262,3 +264,161 @@ table {
    display: flex;
    align-items: center;
  }
+
+ .budger {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 10;
+   background-color:#533434 ;
+   //margin-bottom: 20px;
+}
+.burger_container {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+
+}
+.burger_logo {
+  /* border-radius: 50%;
+
+  position: relative;
+   /* background-color: white; */ */
+  /* z-index: 5;
+  width: 40px;
+  height: 40px; */ */
+
+}
+.burger_menu {
+}
+.menu_icon {
+  
+  z-index: 5;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 18px;
+  cursor: pointer; 
+
+}
+.menu_icon::before,
+.menu_icon::after,
+.menu_icon span {
+  left: 0;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+}
+.menu_icon::before,
+.menu_icon::after {
+  content: '';
+}
+.menu_icon::before {
+  top 0;
+}
+.menu_icon::after {
+  bottom: 0;
+}
+.menu_icon span {
+  top: 50%;
+  transform: scale(1) translate(0px, -50%);
+}
+.menu_body {
+}
+.menu_list {
+  display: flex;
+  align-items: center;
+}
+.menu_link {
+  color: white;
+  font-size: 18px;
+
+}
+.menu_list > li {
+  position: relative;
+  margin-left: 20px;
+  padding: 10px 0;
+
+}
+.wrapper {
+}
+
+.menu_sub-list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  padding: 15px;
+}
+.menu_sub-link {
+  color: white;
+}
+.menu_sub-list li {
+  margin-bottom: 10px;
+}
+.menu_link:hover {
+ 
+}
+.menu_sub-list {
+  transform: translate(0px, 10%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s ease 0s;
+}
+body .menu_list > li:hover .menu_sub-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0px, 0px);
+  pointer-events: all;
+}
+.menu_body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  transform: translate(-100%, 0px );
+  background-color:black;
+  padding: 100px 30px 30px 30px;
+  transition: left 0.3s ease 0s;
+
+}
+
+.menu_body._active {
+  transform: translate(0px, 0);
+}
+.menu_body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background-color: #533434;
+
+}
+.menu_list > li {
+  margin-bottom: 30px;
+
+}
+.menu_list > li:last-child  {
+margin-bottom: 0;
+}
+.menu_sub-list {
+   position: relative;
+   background-color: #fff; */
+  flex: 1 1 100%;
+  margin-top: 20px; */
+  display: none;
+}
+.menu_list > li._active .menu_sub-list {
+  display: block;
+}

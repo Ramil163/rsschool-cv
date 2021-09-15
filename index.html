@@ -8,6 +8,34 @@
     <title>CV-HTML</title>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="budger">
+        <div class="burger_container">
+          <a href="" class="burger_logo"></a>
+          <div class="burger_menu">
+            <div class="menu_icon">
+              <span></span>
+            </div>
+            <nav class="menu_body">
+              <ul class="menu_list">
+                <li><a href="" class="menu_link">Раздел 1</a></li>
+                <li><a href="" class="menu_link">Раздел 2</a></li>
+                <li><a href="" class="menu_link">Раздел 3</a></li>
+                <li>
+                  <a href="" class="menu_link"></a>
+                  <ul class="menu_sub-list">
+                    <li><a href="" class="menu_sub-link">chap1</a></li>
+                    <li><a href="" class="menu_sub-link">chap2</a></li>
+                    <li><a href="" class="menu_sub-link">chap3</a></li>
+                  </ul>
+                </li>
+                <li><a href="" class="menu_link"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-cen">
       <div class="two-columns">
         <div class="left-column">
@@ -71,6 +99,29 @@
           <section class="courses">
             <h3>Courses</h3>
             <p>English courses at a language school</p>
+          </section>
+          <section class="code_examples">
+            <h3>Code Example</h3>
+            <pre>
+              function squaresNeeded(grains){
+                let arr = [];
+                if (grains === 0) {
+                  return 0;
+                }          
+                let numSqr = 0  
+                let sum = 0;
+                for(let i = 0; i < 64; i++) {
+                  numSqr = Math.pow(2, i);
+                  sum += numSqr; 
+                  arr.push(numSqr);
+                  if (grains <= sum) {
+                    return arr.indexOf(arr[i])+1
+                  } 
+                  
+                }
+                console.log(arr);
+              }
+            </pre>
           </section>
         </aside>
       </div>
