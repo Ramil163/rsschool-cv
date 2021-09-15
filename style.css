@@ -38,7 +38,6 @@ table {
 :root {
    --dark-gray-color: #505050;
    --ligth-gray-color: #777777;
-   --pink-color: #ffd6d2;
  }
  
  body {
@@ -53,7 +52,7 @@ table {
    font-size: 18px;
    line-height: 1.5;
    background-color: #ffffff;
-   box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+   box-shadow: 20px 10px 40px -1px rgba(0, 0, 0, 0.23);
  }
  
  .two-columns {
@@ -63,7 +62,7 @@ table {
  .left-column {
    width: 42%;
    color: var(--dark-gray-color);
-   background-color: rgb(176, 248, 176);
+   background-color: rgb(147, 186, 196);
  }
  
  .right-column {
@@ -80,15 +79,15 @@ table {
  header img {
    margin-bottom: 10px;
    border: 15px solid ;
-   color: olivedrab;
-   border-radius: 50%;
+   color: rgb(147, 186, 196);
+   border-radius: 30%;
  }
  
  header h1 {
    margin-bottom: 10px;
    font-size: 2rem;
    font-weight: 700;
-   line-height: 1.1;
+   line-height: 1.5;
    text-transform: uppercase;
    letter-spacing: 7px;
  }
@@ -99,7 +98,7 @@ table {
  }
  
  main {
-   padding: 0 40px;
+   padding: 0 50px;
  }
  
  main h3 {
@@ -177,10 +176,6 @@ table {
    border-bottom: 2px solid var(--ligth-gray-color);
  }
  
- .right-column img {
-   vertical-align: middle;
-   margin-right: 15px;
- }
  
  .right-column p {
    color: var(--ligth-gray-color);
@@ -194,16 +189,12 @@ table {
    font-weight: 700;
  }
  
- .courses ul {
+ .courses p {
    list-style-type: disc;
    margin-left: 45px;
    margin-bottom: 30px;
  }
  
- .courses li {
-   margin-bottom: 10px;
-   color: var(--ligth-gray-color);
- }
  
  
  
