@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <title>CV-HTML</title>
   </head>
   <body>
@@ -102,19 +110,25 @@
           </section>
           <section class="code-examples">
             <h3>Code example</h3>
+            <pre><code>
             <p>
-              function squaresNeeded(grains) {<br />
-              let arr = [];<br />
-              if (grains === 0) {<br />
-              return 0 <br />}<br />
-              let numSqr = 0<br />
-              let sum = 0;<br />
-              for(let i = 0; i < 64; i++) {<br />
-              numSqr = Math.pow(2, i); <br />sum += numSqr;
-              <br />arr.push(numSqr); <br />if (grains <= sum) {<br />return
-              arr.indexOf(arr[i])+1 <br />} <br />} <br />console.log(arr);
-              <br />}
-            </p>
+              function squaresNeeded(grains) {
+              let arr = [];
+              if (grains === 0) {
+              return 0 }
+              let numSqr = 0
+              let sum = 0;
+              for(let i = 0; i < 64; i++) {
+              numSqr = Math.pow(2, i); 
+              sum += numSqr;
+              arr.push(numSqr); 
+              if (grains <= sum) {
+              return
+              arr.indexOf(arr[i])+1 
+              } 
+              } console.log(arr);
+              }
+            </p></code></pre>
           </section>
         </aside>
       </div>
