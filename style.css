@@ -46,29 +46,59 @@ table {
  }
  
  .container-cen {
+   max-width: 1070px;
    margin: 20px auto;
-   width: 1024px;
+   
    font-family: "Cabin", sans-serif;
    font-size: 18px;
    line-height: 1.5;
    background-color: #ffffff;
    box-shadow: 20px 10px 40px -1px rgba(0, 0, 0, 0.23);
  }
- 
  .two-columns {
-   display: flex;
+  display: flex;
+}
+
+.left-column {
+  width: 42%;
+  color: var(--dark-gray-color);
+  background-color: rgb(147, 186, 196);
+}
+
+.right-column {
+  width: 58%;
+  padding: 40px;
+  padding-top: 70px;;
+}
+
+ @media (max-width:1200px) {
+  .container-cen {
+    max-width: 970px ;
+  } 
+ }
+ @media (max-width:992px) {
+  .container-cen {
+    max-width: 750px ;
+  } 
+ }
+ @media (max-width:767px) {
+  .container-cen {
+    max-width: none ;
+  } 
+ }
+
+ @media (max-width: 572px) {
+  .two-columns {
+  flex-wrap: wrap;
+  }
+  .left-column {
+    width: 100%;
+  }
+  .right-column {
+    width: 100%;
+  }
  }
  
- .left-column {
-   width: 42%;
-   color: var(--dark-gray-color);
-   background-color: rgb(147, 186, 196);
- }
- 
- .right-column {
-   width: 58%;
-   padding: 40px;
- }
  
  header {
    padding: 30px;
@@ -102,7 +132,7 @@ table {
  }
  
  main h3 {
-   width: 136px;
+   max-width: 136px;
    margin: 40px auto 20px;
    padding: 5px 20px;
    text-align: center;
