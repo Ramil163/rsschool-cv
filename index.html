@@ -111,24 +111,24 @@
           <section class="code-examples">
             <h3>Code example</h3>
             <pre><code>
-            <p>
-              function squaresNeeded(grains) {
-              let arr = [];
-              if (grains === 0) {
-              return 0 }
-              let numSqr = 0
-              let sum = 0;
-              for(let i = 0; i < 64; i++) {
-              numSqr = Math.pow(2, i); 
-              sum += numSqr;
-              arr.push(numSqr); 
-              if (grains <= sum) {
-              return
-              arr.indexOf(arr[i])+1 
-              } 
-              } console.log(arr);
-              }
-            </p></code></pre>
+            
+function squaresNeeded(grains) {
+let arr = [];
+if (grains === 0) {
+return 0 }
+let numSqr = 0
+let sum = 0;
+for(let i = 0; i &lt;64; i++) {
+numSqr = Math.pow(2, i); 
+sum += numSqr;
+arr.push(numSqr); 
+if (grains < sum) {
+return
+arr.indexOf(arr[i])+1 
+} 
+} console.log(arr);
+}
+            </code></pre>
           </section>
         </aside>
       </div>
