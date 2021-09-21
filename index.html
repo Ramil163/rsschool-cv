@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <title>CV-HTML</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="budger">
+        <div class="burger_container">
+          <a href="" class="burger_logo"></a>
+          <div class="burger_menu">
+            <div class="menu_icon">
+              <span></span>
+            </div>
+            <nav class="menu_body">
+              <ul class="menu_list">
+                <li><a href="" class="menu_link">Раздел 1</a></li>
+                <li><a href="" class="menu_link">Раздел 2</a></li>
+                <li><a href="" class="menu_link">Раздел 3</a></li>
+                <li>
+                  <a href="" class="menu_link"></a>
+                  <ul class="menu_sub-list">
+                    <li><a href="" class="menu_sub-link">chap1</a></li>
+                    <li><a href="" class="menu_sub-link">chap2</a></li>
+                    <li><a href="" class="menu_sub-link">chap3</a></li>
+                  </ul>
+                </li>
+                <li><a href="" class="menu_link"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-cen">
+      <div class="two-columns">
+        <div class="left-column">
+          <header>
+            <img src="ava.jpg" alt="avatar" width="204" height="204" />
+            <h1>Ramil Mustafin</h1>
+            <h2>Junior Frontend Developer</h2>
+          </header>
+          <main>
+            <section class="contacts">
+              <h3>Contacts</h3>
+              <ul>
+                <li>
+                  <p>Telephone number: +7(927)0241628</p>
+                </li>
+                <li>E-mail: mustafin.rf@yandex.ru</li>
+                <li>Telegram: @ramil_163</li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h3>Skills</h3>
+              <ul>
+                <li>HTML, CSS/SCSS</li>
+                <li>JavaScript Basic</li>
+                <li>GIT</li>
+                <li>VS Code</li>
+                <li>video & audio editing</li>
+                <li>youtube streaming</li>
+              </ul>
+            </section>
+            <section class="languages">
+              <h3>Languages</h3>
+              <ul>
+                <li>
+                  <p>Russian</p>
+                  <p>Native speaker</p>
+                </li>
+                <li>
+                  <p>English</p>
+                  <p>B1 Intermediate level</p>
+                </li>
+              </ul>
+            </section>
+          </main>
+        </div>
+        <aside class="right-column">
+          <section class="about-myself">
+            <h3>About myself</h3>
+            <p>
+              I'm 35 a Design engeneer with 2 years experience. Also I have lots
+              of expirience as driver and car mechanik. As a design engeneer I
+              conduct the test in a proving ground and tests in special
+              conditions. I'd like to change my job because I think I like IT.
+            </p>
+          </section>
+          <section class="education">
+            <h3>Education</h3>
+            <p>09.2005-06.2009, Togliatti State University</p>
+            <p>Specialist (Bachelor Degree) – Automobile industry</p>
+          </section>
+          <section class="courses">
+            <h3>Courses</h3>
+            <p>English courses at a language school</p>
+          </section>
+          <section class="code-examples">
+            <h3>Code example</h3>
+            <pre><code>
+            
+function squaresNeeded(grains) {
+let arr = [];
+if (grains === 0) {
+return 0 }
+let numSqr = 0
+let sum = 0;
+for(let i = 0; i &lt;64; i++) {
+numSqr = Math.pow(2, i); 
+sum += numSqr;
+arr.push(numSqr); 
+if (grains &lt; sum) {
+return
+arr.indexOf(arr[i])+1 
+} 
+} console.log(arr);
+}
+            </code></pre>
+          </section>
+        </aside>
+      </div>
+      <footer>
+        <a class="my-github" href="https://github.com/Ramil163">
+          <img
+            class="github-icon"
+            src="github.png"
+            alt="github"
+            width="26"
+            height="26"
+          />
+          <p>My github account</p>
+        </a>
+
+        <p>© 2021</p>
+
+        <a href="https://rs.school/js/">
+          <img src="rsschool.png" alt="Rsschool" width="73" height="26" />
+        </a>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
