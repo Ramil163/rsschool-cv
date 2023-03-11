@@ -19,8 +19,8 @@
   
     }
 
-    ### Education: Tolyatti State University Engineer 2009
+### Education: Tolyatti State University Engineer 2009
 
-    ### English B1-B2 
+### English B1-B2 
 
 
