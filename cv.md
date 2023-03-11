@@ -1,13 +1,13 @@
 # Ramil Mustafin
 
-### My contacts 
+### My contacts: 
  * Tel. +7(927)-024-16-28
  * Telegram @ramil_163
  * Github Ramil163
 
-### I'm a design Engineer in automobile industry. Programming seems to me something interesting and see that this course is a good opportunity to try JS.
+### About me: I'm a design Engineer in automobile industry. Programming seems to me something interesting and I see that this course is a good opportunity to try JS.
 
-### My code 
+### My code: 
     const quarterOf = (month) => {
     if (month === 1 || month === 2 || month === 3) return 1;
   
@@ -21,6 +21,6 @@
 
 ### Education: Tolyatti State University Engineer 2009
 
-### English B1-B2 
+### English: B1-B2 
 
 
